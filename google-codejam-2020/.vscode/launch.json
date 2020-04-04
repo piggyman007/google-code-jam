@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "node",
+            "request": "launch",
+            "name": "Vestigium",
+            "program": "${workspaceRoot}/Vestigium/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v12.0.0/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Nesting Depth",
+            "program": "${workspaceRoot}/Nesting Depth/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v12.0.0/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Parenting Partnering Return",
+            "program": "${workspaceRoot}/Parenting Partnering Return/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v12.0.0/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Indicium",
+            "program": "${workspaceRoot}/Indicium/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v12.0.0/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        }
+    ]
+}
