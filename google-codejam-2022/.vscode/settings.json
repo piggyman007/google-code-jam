@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+    },
+    "vscode-corda.isCordaProject": false,
+}
