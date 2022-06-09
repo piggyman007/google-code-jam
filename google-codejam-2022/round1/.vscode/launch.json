@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Pancake Dequeue",
+            "program": "${workspaceRoot}/Pancake Dequeue/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v16.4.2/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Punched Cards",
+            "program": "${workspaceRoot}/Punched Cards/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v16.4.2/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "3D Printing",
+            "program": "${workspaceRoot}/3D Printing/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v16.4.2/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "d1000000",
+            "program": "${workspaceRoot}/d1000000/Solution.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v16.4.2/bin/node",
+            "env": {
+                "NODE_ENV": "local"
+            }
+        }
+    ]
+}
